@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="Proyecto1.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1 id="title">Javier Cruz Feedback Form</h1>
+        <p id="description">Please take the time to fill this out, this a feedback form to better my programming skills in html and css</p>
+        <form id="survey-form">
+            <h2>General Information</h2>
+            <fieldset>
+                <label for="name" id="name-label">Enter your name: <input class="info"type="text" id="name" required placeholder="first name then last"></label><br>
+                <label for="email" id="email-label">Enter your email: <input class="info"type="email" id="email" required placeholder="ex. nicohhw123@gmail.com"></label><br>
+                <label for="number" id="number-label">Enter your age: <input class="info"type="number" id="number" required min="16" max="120" placeholder="16-120"></label><br>
+                <label for="gender">Enter your gender: 
+                    <select id="dropdown" id="gender" required>
+                    <option value="">Select one</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="2">Other</option>
+                    </select>
+                </label><br>
+            </fieldset>
+            <h2>What is our Relationship?</h2>
+            <fieldset>
+                <label><input type="radio" required name="option" value="Family">Family</label><br>
+                <label><input type="radio" required name="option" value="Friend">Friends</label><br>
+                <label><input type="radio" required name="option" value="Associate">Associates</label><br>
+                <label><input type="radio" required name="option" value="Other"><input type="text" required placeholder="Work, Gym, ect...other"></label><br>
+            </fieldset>
+            <h2>Which one of these traits would you describe me as?</h2>
+            <fieldset>
+                <label for="trait1"><input type="checkbox" name="trait" id="trait1" value="1"> Friendly</label>
+                <label for="trait2"><input type="checkbox" name="trait" id="trait2" value="2"> Respecful</label>
+                <label for="trait3"><input type="checkbox" name="trait" id="trait3" value="3"> Charismatic</label>
+                <label for="trait4"><input type="checkbox" name="trait" id="trait4" value="4"> Caring</label>
+                <label for="trait5"><input type="checkbox" name="trait" id="trait5" value="5"> Ignorant</label>
+                <label for="trait6"><input type="checkbox" name="trait" id="trait6" value="6"> Annoying</label>
+                <label for="trait7"><input type="checkbox" name="trait" id="trait7" value="7"> Hard to be Around</label>
+            </fieldset>
+            <h2>In a short paragraph, how would you describe me as a person?</h2>
+            <fieldset>
+                <label for="description"><textarea cols="50" rows="5" type="textarea" name="description-paragraph" id="description" placeholder="I think Javi is very..."></textarea></label>
+            </fieldset>
+            <input type="submit" value="Submit Form" id="submit"> <input type="reset" value="Reset Form" id="reset">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<!-- Info and images gotten from https://chamberlaincoffee.com/ -->
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Product Landing Page" />
+        <title>Cruz Coffee Co. Project</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <header id="header">
+            <h1>Cruz Coffee Co.</h1>
+            <img id="header-img" src="https://cdn.shopify.com/s/files/1/0424/8862/7355/files/NightOwl5.png?v=1613551331&width=1680" alt="coffee-pic" >
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#harvesting">Harvesting</a></li>
+                    <li><a class="nav-link" href="#pricing">Prices</a></li>
+                    <li><a class="nav-link" href="#newsletter">Newsletter</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main">
+            <article id="article">
+                <section id="features" class="margin-top">
+                    <h1>Why our Coffee is Better</h1>
+                    
+                    <div class="featurecolumn">
+                        <h2>A Rich, Bold Flavor</h2>
+                        <p>Our coffee is roasted to perfection, resulting in a bold and rich flavor that is sure to satisfy even the most discerning palate</p>  
+                    </div>
+                    <div class="column">
+                        <h2>A Smooth, Velvety Texture</h2>
+                        <p>The careful selection and processing of our coffee beans ensures a smooth and velvety texture in every cup</p>  
+                    </div>
+                    <div class="column">
+                        <h2>A Delicate Aroma</h2>
+                        <p>The unique flavors and aromas of our coffee are preserved through traditional roasting techniques, resulting in a delicate and inviting aroma</p>  
+                    </div>
+                    <div class="column">
+                        <h2>A Consistent Taste</h2>
+                        <p>Our commitment to quality and consistency means that every cup of our coffee will taste just as good as the last</p>  
+                    </div>
+                    <div class="column">
+                        <h2>A Satisfying Finish</h2>
+                        <p>The perfect balance of flavors in our coffee ensures a satisfying finish with every sip</p>  
+                    </div>
+                </section>
+
+                <section id="harvesting">
+                    <h1>How Our Beans are Harvested</h1>
+                    <p class="harvest-info">As a artisan coffee company, we take great pride in our harvesting process. Our coffee beans are hand-picked at the peak of ripeness to ensure the highest quality and flavor.</p>
+                    <p class="harvest-info">Once the coffee cherries are picked, they are carefully sorted to remove any underripe or overripe beans. The beans are then placed in small batches and undergo a thorough inspection to ensure that only the finest beans are selected for our coffee blends.</p>
+                    <p class="harvest-info">Next, the coffee beans are carefully cleaned and dried, using traditional techniques to preserve their unique flavors and aromas. This slow and meticulous process results in coffee beans that are bursting with flavor and aroma, ready to be roasted to perfection.</p>
+                    <p class="harvest-info">Our commitment to quality and tradition extends to every step of our harvesting process, ensuring that each and every cup of coffee we serve is of the highest caliber.</p>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/yagagM7SlWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div id="video-caption">
+                        <p>Here is a quick video on how our beans are processed before they are shipped to you</p>
+                    </div>
+                    
+                </section>
+
+                <section id="pricing">
+                    <div class="pricingcolumn">
+                        <h2>Social Dog Blend - Coffee Bag</h2>
+                        <p>Time for a treat! The kind of brew that’s made for sharing. Full bodied, complex & smooth with notes of milk chocolate, roasted peanuts, brown sugar, & a graham cracker finish. FOMO in a cup. Goes well with gossip.</p>
+                        <h3>Caffeine level: 4/5</h3>
+                        <h3>18.00€</h3>
+                        <img class="pricing-img" src="https://cdn.shopify.com/s/files/1/0485/4707/0108/products/CT_PRODUCTS_SOCIAL_DOG_000-SRP.jpg?v=1635790361&width=1200" alt="coffee1">
+                    </div>
+                    <div class="pricingcolumn">
+                        <h2>Careless Cat Blend - Coffee Bag</h2>
+                        <p>Calling all introverts. This one is for those who just can’t rn. A more relaxed, half-caffeinated blend for when you just want to chill. A smooth, warm, and balanced medium roast with warm notes of toasted almonds, semi-sweet chocolate, butterscotch candy, and raisin.</p>
+                        <h3>Caffeine level: 2.5/5</h3>
+                        <h3>20.00€</h3>
+                        <img class="pricing-img" src="https://cdn.shopify.com/s/files/1/0485/4707/0108/products/CT_PRODUCTS_CARELESS_CAT_000-DZ2.jpg?v=1635454332&width=832" alt="coffee2">
+                    </div>
+                    <div class="pricingcolumn">
+                        <h2>Fancy Mouse Espresso Blend - Coffee Bag</h2>
+                        <p>Chamberlain Coffee’s espresso blend. Available in both classic ground and whole bean. Perfect for when you need that extra kick to wake up, or if you are one of those badassess that really enjoy the taste of strong black coffee. Fancy Mouse is always down to get shit done. </p>
+                        <h3>Caffeine level: 5/5</h3>
+                        <h3>22.00€</h3>
+                        <img class="pricing-img" src="https://cdn.shopify.com/s/files/1/0485/4707/0108/products/CT_PRODUCTS_FANCY_MOUSE_000-SRP-C.jpg?v=1635808685&width=832" alt="coffee3">
+                    </div>
+                </section>
+
+                <section id="newsletter" class="margin-bottom">
+                    <!--sign up for the coffee newsletter discounts and more-->
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <h2>If you want to sign up for our newsletter for more coffee related updates and discounts, please ener your email address here:</h2>
+                        <input id="email" name="email" type="email" placeholder="emailgoeshere@gmail.com"></input>
+                        <input id="submit" type="submit" >
+                    </form>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+
+        </footer>
+    </body>
+
+
+</html>

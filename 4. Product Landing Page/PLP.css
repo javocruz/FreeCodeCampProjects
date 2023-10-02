@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF3E2;
+  font-family: 'Arial', sans-serif;
+  color: #663300;
+}
+#header-img {
+  height: 40px;
+  width: 40px;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #A4BE7B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+}
+header, ul {
+  padding-left: 50px;
+}
+nav {
+  width: 50%;
+  max-width: 400px;
+  height: 50px;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: #285430;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+.pricing-img {
+  width: 250px;
+  height: 250px;
+}
+#main {
+  padding: 20px;
+  padding-top: 70px;
+}
+
+section {
+  border: 1px solid #663300;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #FFF3E2;
+}
+
+section h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #331a00;
+}
+
+section p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+#video-caption {
+  margin-top: 10px;
+}
+
+.pricingcolumn {
+  border: 1px solid #663300;
+  padding: 20px;
+  background-color: #FFF3E2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pricingcolumn h2 {
+  font-size: 18px;
+  color: #331a00;
+}
+
+.pricingcolumn p {
+  margin-bottom: 15px;
+  color: #663300;
+}
+
+.pricingcolumn h3 {
+  color: #FF6600;
+  font-weight: bold;
+}
+
+.pricing-img {
+  max-width: 100%;
+  height: auto;
+}
+
+#newsletter {
+  background-color: #663300;
+  color: #FFCC66;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#newsletter h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #FFCC66;
+}
+
+#email {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#submit {
+  background-color: #FF6600;
+  color: #FFF3E2;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #CC5500;
+}
+
+#video {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  #header h1 {
+      font-size: 24px;
+  }
+
+  #nav-bar ul li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  #main {
+      padding: 10px;
+  }
+
+  section {
+      padding: 10px;
+  }
+
+  section h1 {
+      font-size: 20px;
+  }
+
+  .pricingcolumn {
+      padding: 10px;
+  }
+
+  .pricingcolumn h2 {
+      font-size: 16px;
+  }
+
+  #newsletter h2 {
+      font-size: 16px;
+  }
+}

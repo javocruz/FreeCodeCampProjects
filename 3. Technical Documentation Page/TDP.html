@@ -1,0 +1,107 @@
+<!--Technical Documentation Python Project-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Technical Documentation Page Project" />
+        <title>Explaining Python</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <header>
+            <!--Navigation-->
+            <nav id="navbar">
+                <header>Python TDP</header>
+              <ul>
+                <li><a class="nav-link" href="#What_Is_Python?">What Is Python?</a></li>
+                <li><a class="nav-link" href="#What_Should_You_Know_Before_You_Learn?">What Should You Know Before You Learn?</a></li>
+                <li><a class="nav-link" href="#Syntax_And_Data_Types">Syntax And Data Types</a></li>
+                <li><a class="nav-link" href="#Control_Structures_And_Loops">Control Structures And Loops</a></li>
+                <li><a class="nav-link" href="#Functions_And_Modules">Functions And Modules</a></li>
+                <li><a class="nav-link" href="#Object_Oriented_Programming">Object Oriented Programming</a></li>
+                <li><a class="nav-link" href="#Debugging_And_Error_Handling">Debugging And Error Handling</a></li>
+                <li><a class="nav-link" href="#references">References</a></li>
+              </ul>
+            </nav>
+        </header>
+
+        <main id="main-doc">
+            <!--What Is Python?/Intro-->
+            <section class="main-section" id="What_Is_Python?">
+                <header>What Is Python?</header>
+                <p>Python is a programming language that is widely used for a variety of purposes, such as web development, data analysis, and scientific computing. It is a high-level language, which means that it is easy to read and write, and it is also highly versatile, which makes it a popular choice among developers.</p>
+                <p>Python is an interpreted language, which means that it is executed at runtime by an interpreter, rather than being compiled into machine code that can be run directly on a computer's hardware. This makes it an ideal language for prototyping and testing, as well as for building applications that need to be highly portable.</p>
+                <p>One of the most basic and well known programs is to print "Hello World", which would be done like this <code>print("Hello World!")</code></p>
+            </section>
+
+            <!--What Should you know Before you Learn?-->
+            <section class="main-section" id="What_Should_You_Know_Before_You_Learn?">
+                <header>What Should You Know Before You Learn?</header>
+                <p class="indent">Before learning Python, it can be helpful to have some basic knowledge of computer programming concepts, such as variables, data types, control structures, and functions. This will make it easier to understand the fundamental concepts of Python, and will allow you to more easily get started with writing and running your own Python code. In addition, it can be helpful to have a basic understanding of the operating system and command line on your computer, as well as some experience with a text editor or integrated development environment (IDE) that you can use to write and run your Python code. Having a basic understanding of these tools will make it easier to work with Python and to write, run, and debug your programs.</p>
+                <p>It can also be helpful to have some familiarity with other programming languages, as this can provide a useful point of reference for learning Python. While previous experience with a specific language is not required, a general understanding of the concepts and principles of programming can make it easier to pick up Python and start writing your own programs. Overall, having some basic knowledge of programming concepts and tools, as well as a general understanding of the principles of computer science, can be helpful for those looking to learn Python. With these foundations in place, you should be well-prepared to start learning the language and writing your own programs.</p>
+            </section>
+
+            <!--Start of 5 Things-->
+            <h1>Five Things To Know So You Can Master Python</h1>
+
+            <!--Syntax and Data Types-->
+            <section class="main-section" id="Syntax_And_Data_Types">
+                <header>Syntax And Data Types</header>
+                <p>The basic syntax of Python is the set of rules that govern how a Python program is written and structured. This includes rules for how to write and format code, such as how to use indentation to denote blocks of code, and how to use comments to annotate and document your code. Python has a number of built-in data types, which are used to store and manipulate different kinds of data within a program.</p>
+                <p>These different types include:</p>
+                <ul>
+                    <li>Numbers</li>
+                    <li>Strings</li>
+                    <li>Lists</li>
+                    <li>Dictionaries</li>
+                    <li>Sequence</li>
+                </ul>
+                <p>Understanding the basic syntax and data types of Python is essential for being able to write and run Python programs effectively. These concepts form the foundation of the language, and provide the building blocks for more advanced programming techniques.</p>
+            </section>
+
+            <!--Control structures and Loops-->
+            <section class="main-section" id="Control_Structures_And_Loops">
+                <header>Control Structures And Loops</header>
+                <p>Control structures and loops are programming concepts that allow you to control the flow of your program's execution. Control structures allow you to specify the order in which different parts of your code are executed, while loops enable you to repeat a block of code until a certain condition is met. In Python, control structures are implemented using if-else statements, for loops, and while loops.</p>
+                <p>Here is an example of an if-else statement in Python: <code>if x > 0: { print("x is positive") } / else: {print("x is non-positive")} </code><br>This code will print "x is positive" if the value of x is greater than 0, and "x is non-positive" otherwise.</p>
+                <p>Here is an example of an for-loop in Python: <code>for i in range(10): {print(i)} </code><br>This code will print the numbers from 0 to 9 (inclusive) to the console.</p>
+                <p>And here is an example of a while loop in Python:<code>while x > 0: {print(x), x -= 1}</code><br>This code will print the value of x to the console, and then decrease the value of x by 1, until x is no longer greater than 0.</p>
+            </section>
+
+            <!--Functions and Modules-->
+            <section class="main-section" id="Functions_And_Modules">
+                <header>Functions And Modules</header>
+                <p>Functions and modules are two important concepts in Python programming.</p>
+                <p>Functions are blocks of reusable code that perform a specific task. They allow you to break down a large, complex program into smaller, more manageable chunks. This makes your code easier to read and understand, and also helps to prevent errors.</p>
+                <p>Here is an example of a simple function in Python: <code>def greet(name): {print("Hello, " + name + "!")} / greet("Alice") / greet("Bob")</code><br>This code defines a function called greet() that takes a single argument called name and prints a greeting to the console. The function is then called twice, with different arguments passed in each time.</p>
+                <p>Modules are collections of related functions, classes, and other code that can be imported and used in your Python programs. This allows you to reuse existing code, and also helps to organize your code into logical units..</p>
+                <p>Here is an example of how to import and use a module in Python:<code>import math / x = math.sqrt(16) / print(x)</code><br>This code imports the math module, which contains a number of useful mathematical functions, and then uses the sqrt() function from the module to calculate the square root of 16. The result is then printed to the console.</p>
+                <p>Both functions and modules are essential tools in Python programming, and they can help you to write more efficient, organized, and readable code.</p>
+            </section>
+            
+            <!--Object-oriented Programming-->
+            <section class="main-section" id="Object_Oriented_Programming">
+                <header>Object Oriented Programming</header>
+                <p>Object-oriented programming (OOP) is a programming paradigm that is based on the concept of "objects", which can contain data and code that manipulates that data. In OOP, objects are used to represent real-world entities, and the code that operates on these objects is organized into classes. OOP has several advantages over other programming paradigms, including modularity, extensibility, and reusability. It also promotes code organization and reuse, which can help to reduce the overall complexity of your programs.</p>
+                <p>In Python, OOP is supported through the use of classes and objects. Here is an example of a simple class in Python:<code>class Dog: def __init__(self, name, age): self.name = name self.age = age / def bark(self): print("Woof!")</code><br>This code defines a class called Dog, which has two attributes (name and age) and one method (bark()). The __init__() method is a special method that is called when an object is created from the class, and it is used to initialize the object's attributes.</p>
+                <p>To create an object from this class, you can use the following code: <code>my_dog = Dog("Buddy", 5)</code></p>
+                <p>This creates a new Dog object with the name "Buddy" and age 5. You can then access the object's attributes and methods like this:<code>print(my_dog.name) / my_dog.bark()</code><br>This will print the name of the dog to the console, and then cause the dog to bark.</p>
+                <p>OOP is an important concept in Python, and it is used in many different types of applications. Whether you are writing a simple script or a complex software system, using OOP can help you to write more organized, reusable, and maintainable code.</p>
+            </section>
+
+            <!--Debugging and Error Handling-->
+            <section class="main-section" id="Debugging_And_Error_Handling">
+                <header>Debugging And Error Handling</header>
+                <p>Debugging refers to the process of identifying and fixing errors or "bugs" in your code. When a program contains a bug, it can cause the program to behave unexpectedly or crash, which can be frustrating for the programmer. Debugging tools and techniques can help you find and fix these errors, so your code runs smoothly and as intended. Error handling, on the other hand, is the practice of anticipating and writing code to handle error situations that may arise in your program. For example, you might write a piece of code to handle a situation where the user enters an invalid input, or where the program tries to divide by zero. This can help prevent your program from crashing and make it more user-friendly.</p>
+                <p>In Python, there are several built-in tools and techniques that you can use for debugging and error handling. For example, you can use the print() function to print the values of variables at different points in your code, which can help you see where an error is occurring. You can also use the try and except keywords to write code that will handle specific errors that may occur in your program. Overall, debugging and error handling are important skills to have as a programmer, and can help you write more reliable and user-friendly code.</p>
+            </section>
+
+            <section class="main-section" id="references">
+                <header>References</header>
+                <p>All of the text that was generated for use in this project was generated from<a "id="openai-link" href="https://chat.openai.com/chat" target="_blank"> chat.openai.com/chat</a></p>
+            </section>
+        </main>
+    </body>
+</html>

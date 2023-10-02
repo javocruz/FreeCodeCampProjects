@@ -1,0 +1,140 @@
+/*Things Universal Classes*/
+.center {
+  text-align: center;
+}
+.big {
+  font-size: 2rem;
+}
+body {
+  background-color: #495579;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Helvetica Neue', Arial, sans-serif;
+  color: white;
+  margin: 0;
+}
+.margin {
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.indent {
+  padding-left: 50px;
+}
+.bold {
+  font-weight: 600;
+}
+
+/*Things for Header*/
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #251749;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+}
+header, h1 {
+  padding-left: 20px;
+}
+header, ul {
+  padding-right: 20px;
+}
+nav {
+  width: 50%;
+  max-width: 400px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*Things for Title*/
+.top {
+  margin-top: 100px;
+}
+
+/*Things for Photo/Caption*/
+#img-div {
+  background-color: #263159;
+
+  padding: 30px;
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+#img-cap {
+  padding-top: 5px;
+  background-color: #263159;
+  color: FFFBEB;
+}
+
+/*Things for Basic Info*/
+.imp {
+  font-weight: 600;
+}
+#basic-info > p {
+ font-size: 1.25rem;
+ margin: auto 35px;
+ padding-bottom: 25px;
+}
+/*Things for Timeline*/
+#timeline > ul > li {
+  padding-top: 20px;
+}
+
+/*Things for Reknown Works*/
+.works, .imgworks {
+  width: 100%;
+  max-width: 350px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: #263159;
+  padding: 15px;
+}
+#works-caption {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 0px;
+}
+#blurb {
+  text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: .85rem;
+  margin: 0 20px;
+}
+.column {
+  flex: 30%;
+  padding: 5px;
+}
+.container {
+  display: flex;
+} 
+/*Things For Footer*/
